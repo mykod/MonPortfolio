@@ -1,3 +1,26 @@
+html, body{
+    margin: 0px;
+    height: auto;
+    background-color: #714D2A;
+    color: #f8f8ff;
+}
+
+/*CONTAINER*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    height: 100%;
+    align-content: center;
+}
+/*CONTAINER*/
+.header, main{
+    margin-top: 120px;
+    margin-left: 50px;
+    height: 400px;
+    width: 520px;
+}
+/*HEADER*/
 .title{
     font-family: Tahoma, Verdana, sans-serif;
     font-size: 3em;
@@ -6,3 +29,40 @@
     font-family: Tahoma, Verdana, sans-serif;
     font-size: 1.25em;
 }
+header, nav, .social-network{
+    margin-left: 42px;
+}
+
+.title, .subtitle, .presentation{
+    margin: unset;
+}
+.presentation{
+    margin-top: 14px;
+    font-size: 1.25em;
+    font-family: 'Gentium Plus','Times New Roman', sans-serif;
+}
+
+/*NAV*/
+nav ul{
+    padding-left: 0;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 0.5em;
+    font-size: 2em;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#FFFF;
+}
+.social-network ul li{
+    display: inline;
+    margin-top: 2.5em;
+}
+.social-network ul li i{
+    height: 39px;
+    width: 37px;
+}
+/*NAV*/
+/*HEADER*/
+
