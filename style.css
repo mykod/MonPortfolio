@@ -24,6 +24,8 @@ html, body{
 .title{
     font-family: Tahoma, Verdana, sans-serif;
     font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .subtitle{
     font-family: Tahoma, Verdana, sans-serif;
@@ -55,14 +57,26 @@ nav ul li a{
     text-decoration: none;
     color:#FFFF;
 }
-.social-network ul li{
-    display: inline;
-    margin-top: 2.5em;
-}
-.social-network ul li i{
-    height: 39px;
-    width: 37px;
+.social-network i{
+    padding-top: 0.9em;
+    padding-right: 0.65em;
 }
 /*NAV*/
 /*HEADER*/
 
+/*MAIN*/
+.title-paragraph{
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-weight: lighter;
+    margin: 18px 0px 0px;
+}
+section p{
+    margin-top: 2em;
+    margin-bottom: 0px;
+    width: 450px;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+}
+/*MAIN*/
